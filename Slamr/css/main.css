@@ -1,0 +1,91 @@
+body{
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-weight:400;
+}
+
+h1{
+	text-transform:uppercase;
+	color: #D0D0D0;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+.btn-default{
+	background:#3498db;
+	padding:15px;
+	font-weight:700;
+	text-transform:uppercase;
+	border:none;
+	color:white;	
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+    background-color: #2980b9;
+    color:white;
+}
+#head{
+	background-color:#222;
+	background: url(../img/bg.jpg) center top;	
+	background-size:cover;
+	-moz-background-size:cover;
+	-webkit-background-size:cover;
+	-o-background-size:cover;
+	height:500px;
+	color:white;
+}
+#head h1{
+	font-size:80px;
+	line-height:80px;
+	font-weight:800;
+}
+#head p{
+	padding-top:15px;
+	padding-bottom:15px;
+}
+#head .container{
+	padding-top:150px;
+}
+#main{
+	padding-top:100px;
+}
+.container img{
+	margin:0 auto;
+		-webkit-transition: all 0.4s ease 0s;
+	-moz-transition: all 0.4s ease 0s;
+	-ms-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}
+.container .col-md-6:hover img,.container .col-md-4:hover img {
+	-webkit-transform:scale(1.2);
+   -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);
+     -o-transform:scale(1.2);
+        transform:scale(1.2);
+}
+
+h2{
+	font-size:15px;
+	color:#888;
+}
+
+footer{
+	padding-top:100px;
+}
+.copy{
+	font-size:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
