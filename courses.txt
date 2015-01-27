@@ -1,28 +1,43 @@
 Computer Science / Math
 
-CSC494
-CSC454
-CSC373
-CSC369
-CSC363
-CSC343
-CSC336
-CSC324
-CSC318
-CSC310
-CSC309
-CSC302
-CSC301
-CSC263
-CSC258
-CSC236
-CSC209
-CSC207
-CSC165
-CSC148
-CSC108
-MAT223
-MAT137
-MAT137
-STA257
+CSC494	Project in Computer Science
+CSC454	Business of Software
+CSC373	Algorithm Design, Analysis & Complexity
+CSC369	Operating Systems
+CSC363	Complexity and Computing
+CSC343	Introduction to Databases
+CSC336	Numerical Methods
+CSC324	Principles of Programming Languages
+CSC318	The Design of Interactive Computational Media
+CSC310	Information Theory
+CSC309	Programming on the Web
+CSC302	Engineering Large Software Systems
+CSC301	Introduction to Software Engineering
+CSC263	Data Structures and Analysis
+CSC258	Computer Organization
+CSC236	Introduction to the Theory of Computation
+CSC209	Software Tools and Systems Programming
+CSC207	Software Design
+CSC165	Mathematical Expression and Reasoning for Computer Science
+CSC148	Introduction to Computer Science
+CSC108	Introduction to Computer Programming
+MAT223	Linear Algebra I
+MAT137	Calculus!
+STA257	Probability and Statistics I
 
+Non-Computer Science / Math
+
+ECO100	
+EAS102	
+MGT120	
+NEW160	
+PSY100	
+PSY210	
+PSY220*	
+PSY240	
+PSY270*	
+PSY280	
+PSY290	
+RLG275*	
+STA220	
+SPA100	
