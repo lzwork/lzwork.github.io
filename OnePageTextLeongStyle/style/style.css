@@ -1,0 +1,894 @@
+.imageButtonContainer {
+width:165px;
+display:inline;
+float:left;
+padding-bottom:1px;
+}
+
+.leftColumnWorkPageImageCount {
+width:165px;
+display:inline;
+float:left;
+text-align:right;
+border-bottom:1px solid #dddddd;
+padding-bottom:3px;
+}
+
+#nextImageButton
+{
+  display: block;
+    float:left;
+  width: 20px;
+  height: 20px;
+  background: url("../images/interface/arrowImagesNext.gif") no-repeat -20px 0;
+
+}
+
+#nextImageButton:visited
+{ 
+
+  display: block;
+    float:left;
+  width: 20px;
+  height: 20px;
+  background: url("../images/interface/arrowImagesNext.gif") no-repeat -20px 0;
+}
+
+#nextImageButton:active
+{ 
+
+  display: block;
+    float:left;
+  width: 20px;
+  height: 20px;
+  background-position: -40px 0;
+}
+
+
+#nextImageButton:hover
+{ 
+  display: block;
+  float:left;
+  width: 20px;
+  height: 20px;
+  background-position: -40px 0;
+}
+#nextImageButton span
+{
+  display: none;
+}
+
+#previousImageButton
+{
+  display: block;
+    float:left;
+  width: 20px;
+  height: 20px;
+  background: url("../images/interface/arrowImagesPrevious.gif") no-repeat -20px 0;
+
+}
+
+#previousImageButton:visited
+{ 
+
+  display: block;
+    float:left;
+  width: 20px;
+  height: 20px;
+  background: url("../images/interface/arrowImagesPrevious.gif") no-repeat -20px 0;
+}
+
+#previousImageButton:active
+{ 
+
+  display: block;
+    float:left;
+  width: 20px;
+  height: 20px;
+  background-position: -40px 0;
+}
+
+
+#previousImageButton:hover
+{ 
+  display: block;
+  float:left;
+  width: 20px;
+  height: 20px;
+  background-position: -40px 0;
+}
+#previousImageButton span
+{
+  display: none;
+}
+
+.nextImageButtonContainer {
+  display: block;
+    float:right;
+  width: 20px;
+  height: 20px;
+  background: url("../images/interface/arrowImagesNext.gif") no-repeat 0 0;
+}
+.previousImageButtonContainer {
+  display: block;
+    float:right;
+  width: 20px;
+  height: 20px;
+  background: url("../images/interface/arrowImagesPrevious.gif") no-repeat 0 0;
+}
+
+#slider {
+    width:690px;
+}
+#slider img{
+    border:none;
+}
+#slider ul, #slider li{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+#slider li { 
+    width:690px;
+    height:530px;
+    overflow:hidden; 
+}
+.sliderCopyright {
+float:right;
+font-size:9px;
+line-height:9px;
+text-transform:uppercase;
+
+}
+.sliderImageNumber {
+float:right;
+font-size:9px;
+line-height:9px;
+text-transform:uppercase;
+
+}
+
+.sliderElement {
+height:530px;
+}
+.sliderElementInfo {
+margin-top:4px;
+padding-top:7px;
+border-top:1px solid #dddddd;
+}
+
+.sliderVideo {
+height:500px;
+background:#000000;
+background: url("../images/interface/vimeoWorkBackground.gif") no-repeat 0 0;
+
+}
+
+.newsVideo {
+height:500px;
+width:875px;
+background:#000000;
+}
+
+body {
+width:925px;
+margin-left:auto;
+margin-right:auto;
+margin-top:0px;
+padding-top:40px;
+}img {
+margin:0px;
+padding:0px;
+}a:link {
+text-decoration:underline;
+color:#000000;
+}
+a:visited {
+text-decoration:underline;
+color:#000000;
+}
+a:hover {
+text-decoration:underline;
+color:#0099FF;
+}
+a:active {
+text-decoration:underline;
+color:#0099FF;
+}
+.sortable a:link {
+text-decoration:none;
+
+}
+.sortable a:active {
+text-decoration:none;
+
+}
+.sortable a:visited {
+text-decoration:none;
+
+}
+.sortable a:hover {
+text-decoration:none;
+
+}
+.indexSectionLabel a:link {
+text-decoration:none;
+
+}
+.indexSectionLabel a:active {
+text-decoration:none;
+
+}
+.indexSectionLabel a:visited {
+text-decoration:none;
+
+}
+.indexSectionLabel a:hover {
+text-decoration:none;
+
+}
+
+a img {
+border:none;
+}tr {
+padding:0px;
+margin:0px;
+}td {
+padding:0px;
+margin:0px;
+}th {
+padding:0px;
+margin:0px;
+}table {
+border-collapse:collapse;
+padding:0px;
+margin:0px;
+}.pageContainer{ 
+font-family:"Andale Mono","Lucida Console",sans-serif;
+}
+.header{
+width:935px;
+text-transform:uppercase;
+padding-bottom:15px;
+float:left;
+display:inline;
+}.pageTitle{ 
+padding:0px;
+margin:0px;
+padding-left:51px;
+font-size:25px;
+line-height:25px;
+float:left;
+display:inline;
+}
+.contactInfo{ 
+font-size:9px;
+line-height:10px;
+padding-top:24px;
+padding-right:1px;
+font-family:"Andale Mono","Lucida Console",sans-serif;
+float:right;
+display:inline;
+}.contactInfoEmail{ 
+float:left;
+padding-left:10px;
+display:inline;
+}.contactInfoAddress{ 
+float:left;
+padding-left:10px;
+display:inline;
+}
+.contactInfoTel{ 
+float:left;
+padding-left:10px;
+display:inline;
+}
+.contactInfoFax{ 
+float:left;
+padding-left:10px;
+display:inline;
+}
+.contactInfoRSS{ 
+float:left;
+padding-left:10px;
+display:inline;
+}
+.content{ 
+width:935px;
+float:left;
+padding-bottom:20px;
+display:inline;
+}.indexSection{
+float:left;
+font-family:"Andale Mono","Lucida Console",sans-serif;
+text-transform:uppercase;
+padding-bottom:20px;
+display:inline;
+padding-left:5px;
+}
+.indexSectionLabel{ 
+width:40px;
+float:left;
+padding:0px;
+margin:0px;
+font-size:9px;
+font-weight:normal;
+text-align:right;
+padding-right:15px;
+padding-top:3px;
+line-height:9px;
+display:inline;
+}
+.indexSectionLabel img {
+height:8px;
+vertical-align:top;
+padding:0px;
+margin:0px;
+}
+.indexSectionCopyText{ 
+padding:0px;
+margin:0px;
+width:875px;
+line-height:15px;
+font-size:9px;
+border-top:17px solid #000000;
+padding-top:5px;
+float:right;
+text-align:justify;
+display:inline;
+}
+.indexTable{ 
+width:875px;
+margin:0px;
+padding:0px;
+font-size:9px;
+border-spacing:0px;
+float:right;
+display:inline;
+}.dropIcon {
+}
+.indexTableCaption{ 
+display:none;
+}
+.indexTableLabels{ 
+text-align:left;
+font-size:9px;
+color:#ffffff;
+margin:0px;
+padding:0px;
+background-color:#000000;
+}
+.indexTableLabels th {
+font-weight:normal;
+margin:0px;
+padding:0px;
+padding-top:2px;
+padding-bottom:2px;
+text-indent:5px;
+height:12px;
+font-size:9px;
+border-bottom:1px solid #dddddd;
+}.indexTableRow{ 
+width:875px;
+margin:0px;
+padding:0px;
+text-align:left;
+font-size:9px;
+text-indent:5px;
+}.indexTableRow td {
+margin:0px;
+padding:0px;
+padding-top:2px;
+padding-bottom:2px;
+font-size:9px;
+border-bottom:1px solid #dddddd;
+}.indexTableRowOver{ 
+color:#0099FF;
+width:875px;
+margin:0px;
+padding:0px;
+text-align:left;
+font-size:9px;
+text-indent:5px;
+}.indexTableRowOver td {
+color:#ffffff;
+background-color:#000000;
+margin:0px;
+padding:0px;
+padding-top:2px;
+padding-bottom:2px;
+border-bottom:1px solid #dddddd;
+}
+.indexTableRowOverBACKUP td {
+color:#0099FF;
+margin:0px;
+padding:0px;
+padding-top:2px;
+padding-bottom:2px;
+border-bottom:1px solid #dddddd;
+}
+.indexTableRowOver td a:link {
+font-size:9px;
+color:#ffffff;
+}
+.indexTableRowOver td a:visited {
+font-size:9px;
+color:#ffffff;
+}
+.indexTableRowOver td a:hover {
+font-size:9px;
+color:#ffffff;
+}
+.indexTableRowOver td a:active {
+font-size:9px;
+color:#ffffff;
+}
+.indexTableRowOverBACKUP td a:link {
+font-size:9px;
+color:#0099FF;
+}
+.indexTableRowOverBACKUP td a:visited {
+font-size:9px;
+color:#0099FF;
+}
+.indexTableRowOverBACKUP td a:hover {
+font-size:9px;
+color:#0099FF;
+}
+.indexTableRowOverBACKUP td a:active {
+font-size:9px;
+color:#0099FF;
+}.indexTableDataBioNameLabel{ 
+font-size:9px;
+width:130px;
+background:#000000 url("../images/interface/tab.gif") no-repeat right top;
+}
+.indexTableDataBioPositionLabel{ 
+font-size:9px;
+width:85px;
+background:#000000 url("../images/interface/tab.gif") no-repeat right top;
+}
+.indexTableDataBioPlaceOfBirthLabel{ 
+font-size:9px;
+width:150px;
+background:#000000 url("../images/interface/tab.gif") no-repeat right top;
+}
+.indexTableDataBioSignLabel{
+font-size:9px;
+width:70px;
+background:#000000 url("../images/interface/tab.gif") no-repeat right top;
+}
+.indexTableDataBioEtcLabel{ 
+font-size:9px;
+width:230px;
+background:#000000 url("../images/interface/tab.gif") no-repeat right top;
+}
+.indexTableDataBioEmailLabel{
+font-size:9px;
+background-color:#000000;
+width:210px;
+}
+.indexTableDataBioName{
+font-size:9px;
+width:130px;
+}
+.indexTableDataBioPosition{
+font-size:9px;
+width:85px;
+}
+.indexTableDataBioPlaceOfBirth{
+font-size:9px;
+width:150px;
+}
+.indexTableDataBioSign{
+font-size:9px;
+width:70px;
+}
+.indexTableDataBioEtc{
+font-size:9px;
+width:230px;
+}
+.indexTableDataBioEmail{
+font-size:9px;
+width:210px;
+}.indexTableDataNewsDateLabel{
+font-size:9px;
+width:65px;
+background:#000000 url("../images/interface/tab.gif") no-repeat right top;
+}
+.indexTableDataNewsReportLabel{
+font-size:9px;
+background-color:#000000;
+width:810px; 
+}.indexTableDataNewsDate{ 
+font-size:9px;
+width:65px;
+}
+.indexTableDataNewsReport{ 
+font-size:9px;
+width:810px; 
+}.indexTableDataWorkProjectLabel{
+font-size:9px;
+width:325px;
+background:#000000 url("../images/interface/tab.gif") no-repeat right top;
+}
+.indexTableDataWorkLocationLabel{
+font-size:9px;
+width:180px;
+background:#000000 url("../images/interface/tab.gif") no-repeat right top;
+}
+.indexTableDataWorkYearLabel{
+font-size:9px;
+width:50px;
+background:#000000 url("../images/interface/tab.gif") no-repeat right top;
+}
+.indexTableDataWorkStatusLabel{
+font-size:9px;
+width:145px;
+background:#000000 url("../images/interface/tab.gif") no-repeat right top;
+}
+.indexTableDataWorkTypeLabel{
+width:75px;
+font-size:9px;
+background:#000000 url("../images/interface/tab.gif") no-repeat right top;
+}
+.indexTableDataWorkSizeLabel{ 
+font-size:9px;
+background-color:#000000;
+width:105px;
+}.indexTableDataWorkProject{ 
+font-size:9px;
+width:325px;
+}
+.indexTableDataWorkLocation{ 
+font-size:9px;
+width:180px;
+}
+.indexTableDataWorkYear{ 
+font-size:9px;
+width:50px;
+}
+.indexTableDataWorkStatus{ 
+font-size:9px;
+width:145px;
+}
+.indexTableDataWorkType{ 
+font-size:9px;
+width:75px;
+}
+.indexTableDataWorkSize{
+font-size:9px;
+width:105px;
+}.indexTableDataPressPublicationLabel{
+font-size:9px;
+width:230px;
+background:#000000 url("../images/interface/tab.gif") no-repeat right top;
+}
+.indexTableDataPressMonthLabel{
+font-size:9px;
+width:70px;
+background:#000000 url("../images/interface/tab.gif") no-repeat right top;
+}
+.indexTableDataPressYearLabel{
+font-size:9px;
+width:50px;
+background:#000000 url("../images/interface/tab.gif") no-repeat right top;
+}
+.indexTableDataPressPagesLabel{
+font-size:9px;
+width:70px;
+background:#000000 url("../images/interface/tab.gif") no-repeat right top;
+}
+.indexTableDataPressAbstractLabel{
+font-size:9px;
+width:375px;
+background:#000000 url("../images/interface/tab.gif") no-repeat right top;
+}
+.indexTableDataPressMediumLabel{ 
+font-size:9px;
+background-color:#000000;
+width:85px;
+}.indexTableDataPressPublication{ 
+font-size:9px;
+width:230px;
+}
+.indexTableDataPressMonth{
+font-size:9px;
+width:70px;
+}
+.indexTableDataPressYear{
+font-size:9px;
+width:50px;
+}
+.indexTableDataPressPages{
+font-size:9px;
+width:70px;
+}
+.indexTableDataPressAbstract{
+font-size:9px;
+width:375px;
+}
+.indexTableDataPressMedium{ 
+font-size:9px;
+width:85px;
+}
+.sectionContent { 
+float:left;
+width:935px;
+display:inline;
+padding-left:5px;
+}.oneColumnContent {
+width:875px;
+float:right;
+padding-right:5px;
+display:inline;
+}
+
+
+.twoColumnContentLeft { 
+float:left;
+width:165px;
+height:500px;
+margin-left:55px;
+margin-right:20px;
+display:inline;
+}
+
+.twoColumnContentRight { 
+float:left;
+width:690px;
+height:500px;
+display:inline;
+}
+
+.leftColumnContent {
+float:left;
+height:471px;
+font-size:9px;
+text-transform:none;
+padding:0px;
+margin:0px;
+text-align:left;
+line-height:12px;
+display:inline;
+}
+
+.leftColumnFooter {
+float:left;
+font-size:9px;
+line-height:9px;
+text-transform:uppercase;
+width:165px;
+height:26px;
+display:inline;
+}
+
+.leftColumnFooterTitle {
+width:165px;
+float:left;
+text-align:right;
+padding-bottom:5px;
+margin-bottom:5px;
+border-bottom:1px solid #dddddd;
+display:inline;
+}
+
+.leftColumnFooterTitlePress {
+width:165px;
+float:left;
+text-align:left;
+padding-bottom:5px;
+margin-bottom:5px;
+border-bottom:1px solid #dddddd;
+display:inline;
+}
+.leftColumnFooterPDFLink {
+float:left;
+display:inline;
+}
+.leftColumnFooterImageNumber {
+float:right;
+display:inline;
+}
+
+
+
+
+
+
+
+.twoColumnWorkContentLeft { 
+float:left;
+width:165px;
+height:500px;
+margin-left:55px;
+margin-right:20px;
+display:inline;
+}
+
+.twoColumnWorkContentRight { 
+float:left;
+width:690px;
+height:500px;
+display:inline;
+}
+
+.leftColumnWorkContent {
+float:left;
+height:471px;
+font-size:9px;
+text-transform:none;
+padding:0px;
+margin:0px;
+text-align:left;
+line-height:12px;
+display:inline;
+}
+
+.leftColumnWorkFooter {
+float:left;
+font-size:9px;
+line-height:9px;
+text-transform:uppercase;
+width:165px;
+height:30px;
+display:inline;
+}
+
+
+.leftColumnWorkFooterPDFLink {
+float:left;
+display:inline;
+padding-top:7px;
+}
+.leftColumnWorkFooterButtons {
+float:right;
+display:inline;
+width:165px;
+padding-bottom:4px;
+border-bottom:1px solid #dddddd;
+}
+.errorTitle {
+font-size:20px;
+padding-bottom:10px;
+padding-top:20px;
+text-transform:uppercase;
+}
+.errorCopy {
+font-size:9px;
+text-transform:uppercase;
+}.tableExpandButton {
+width:800px;
+float:left;
+padding-left:30px;
+position:relative;
+top:-2px;
+display:inline;
+}
+.tableDropArrow {
+font-family:webdings;
+font-size:8px;
+line-height:7px;
+}
+.indexTableDataPressPublicationLabel{
+font-size:9px;
+width:230px;
+background:#000000 url("../images/interface/tab.gif") no-repeat right top;
+}
+.indexTableDataPressMonthLabel{
+font-size:9px;
+width:70px;
+background:#000000 url("../images/interface/tab.gif") no-repeat right top;
+}
+.indexTableDataPressYearLabel{
+font-size:9px;
+width:50px;
+background:#000000 url("../images/interface/tab.gif") no-repeat right top;
+}
+.indexTableDataPressPagesLabel{
+font-size:9px;
+width:70px;
+background:#000000 url("../images/interface/tab.gif") no-repeat right top;
+}
+.indexTableDataPressAbstractLabel{
+font-size:9px;
+width:375px;
+background:#000000 url("../images/interface/tab.gif") no-repeat right top;
+}
+.indexTableDataPressMediumLabel{ 
+font-size:9px;
+background-color:#000000;
+width:85px;
+}.indexTableDataPressPublication{ 
+font-size:9px;
+width:230px;
+}
+.indexTableDataPressMonth{
+font-size:9px;
+width:70px;
+}
+.indexTableDataPressYear{
+font-size:9px;
+width:50px;
+}
+.indexTableDataPressPages{
+font-size:9px;
+width:70px;
+}
+.indexTableDataPressAbstract{
+font-size:9px;
+width:375px;
+}
+.indexTableDataPressMedium{ 
+font-size:9px;
+width:85px;
+}
+
+
+
+
+
+
+
+.indexTableDataLinksWhoLabel{
+font-size:9px;
+width:200px;
+background:#000000 url("../images/interface/tab.gif") no-repeat right top;
+}
+.indexTableDataLinksWhatLabel{
+font-size:9px;
+width:420px;
+background:#000000 url("../images/interface/tab.gif") no-repeat right top;
+}
+
+.indexTableDataLinksVisitLabel{ 
+font-size:9px;
+background-color:#000000;
+width:265px;
+}
+
+
+.indexTableDataLinksWho{ 
+font-size:9px;
+width:200px;
+}
+.indexTableDataLinksWhat{
+font-size:9px;
+width:420px;
+}
+.indexTableDataLinksVisit{ 
+font-size:9px;
+width:265px;
+}
+
+
+
+.indexTableDataContactTypeLabel{
+font-size:9px;
+width:130px;
+background:#000000 url("../images/interface/tab.gif") no-repeat right top;
+}
+.indexTableDataContactDescriptionLabel{
+font-size:9px;
+width:535px;
+background:#000000 url("../images/interface/tab.gif") no-repeat right top;
+}
+.indexTableDataContactEmailLabel{ 
+font-size:9px;
+background-color:#000000;
+width:210px;
+}
+
+
+.indexTableDataContactType{ 
+font-size:9px;
+width:130px;
+}
+.indexTableDataContactDescription{
+font-size:9px;
+width:535px;
+}
+.indexTableDataContactEmail{ 
+font-size:9px;
+width:210px;
+}
