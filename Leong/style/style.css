@@ -507,9 +507,12 @@ width:65px;
 .indexTableDataNewsReport{ 
 font-size:9px;
 width:810px; 
-}.indexTableDataWorkProjectLabel{
+}
+
+
+.indexTableDataWorkProjectLabel{
 font-size:9px;
-width:325px;
+width:505px;
 background:#000000 url("../images/interface/tab.gif") no-repeat right top;
 }
 .indexTableDataWorkLocationLabel{
@@ -528,7 +531,7 @@ width:145px;
 background:#000000 url("../images/interface/tab.gif") no-repeat right top;
 }
 .indexTableDataWorkTypeLabel{
-width:75px;
+width:125px;
 font-size:9px;
 background:#000000 url("../images/interface/tab.gif") no-repeat right top;
 }
@@ -536,9 +539,12 @@ background:#000000 url("../images/interface/tab.gif") no-repeat right top;
 font-size:9px;
 background-color:#000000;
 width:105px;
-}.indexTableDataWorkProject{ 
+}
+
+
+.indexTableDataWorkProject{ 
 font-size:9px;
-width:325px;
+width:505px;
 }
 .indexTableDataWorkLocation{ 
 font-size:9px;
@@ -554,7 +560,7 @@ width:145px;
 }
 .indexTableDataWorkType{ 
 font-size:9px;
-width:75px;
+width:125px;
 }
 .indexTableDataWorkSize{
 font-size:9px;
